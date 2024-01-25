@@ -1,10 +1,11 @@
 /* Cor de fundo */
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 h1 {
-    color: #fff;
+    color: var(--color-white);
 }
 
 /* Confifuração do sidebar (posição, tamanho, etc) */
@@ -19,14 +20,14 @@ h1 {
 
 /* Configuração dos links da sidebar (Cor de fundo, cor da fonte, espaçamento, etc) */
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: var(--color-gray-12);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 /* Configuração da logo na sidebar */
 .sidebar__navigation .logo {
-    background: #121212;
+    background: var(--color-gray-12);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -46,22 +47,21 @@ h1 {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: var(--color-gray-b3);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 /* Configuração da sessão da bilbioteca */
 .biblioteca {
-    background-color: #121212;
+    background-color: var(--color-gray-12);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--color-gray-b3);
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -75,12 +75,11 @@ h1 {
 .biblioteca .botão__biblioteca {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--color-gray-b3);
     background-color: transparent;
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -108,7 +107,7 @@ h1 {
     justify-content: space-between;
     gap: 20px;
     background-color: #242424;
-    color: #b3b3b3;
+    color: var(--color-gray-b3);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
@@ -123,8 +122,7 @@ h1 {
 
 .section__playlist__conteudo .text{
     padding-bottom: 14px;
-    color: #fff;
-    font-family: "DM Sans", sans-serif;
+    color: var(--color-white);
 }
 
 .section__playlist__conteudo .title {
@@ -139,12 +137,11 @@ h1 {
 .section__playlist__conteudo .botão__section__playlist {
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -161,7 +158,7 @@ h1 {
 }
 
 .sidebar .cookies a {
-    color: #b3b3b3;
+    color: var(--color-gray-b3);
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -175,7 +172,7 @@ h1 {
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color: #fff;
+    color: var(--color-white);
     font-weight: bold;
     cursor: pointer;
     width: 170px;
@@ -195,13 +192,12 @@ h1 {
     width: 100%;
     height: 80px;
     background-image: linear-gradient(90deg,#af2896,#509bf5);
-    color: #fff;
+    color: var(--color-white);
     border-radius: 8px;
 }
 
 .footer h2 {
     padding-left: 14px;
-    font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 20px;
 }
@@ -211,7 +207,6 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding-right: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .conteudo__footer p {
@@ -222,12 +217,11 @@ h1 {
 .footer .botão__footer {
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-white);
+    color: var(--color-black);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
