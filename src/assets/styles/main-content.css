@@ -124,7 +124,7 @@
 .card-container .card__grid {
     padding-top: 30px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: stretch;
     overflow: hidden;
