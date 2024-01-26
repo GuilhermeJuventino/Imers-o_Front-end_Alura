@@ -90,3 +90,53 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+/* Cards */
+.card-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--color-gray-12);
+    padding: 12px;
+    max-height: 78%;
+}
+
+.card-container .card {
+    color: var(--color-white);
+}
+
+.card-container .boas__vindas { 
+    padding-left: 14px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.card-container .navegar {
+    padding-top: 50px;
+    padding-left: 18px;
+    font-size: 20px;
+}
+
+.card-container .card__grid {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: stretch;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.card-container  .card__grid::-webkit-scrollbar {
+    display: none;
+}
+
+.card__grid img {
+    width: 99%;
+    height: 80%;
+    border-radius: 10px;
+}
